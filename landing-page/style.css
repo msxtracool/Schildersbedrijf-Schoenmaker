@@ -10,3 +10,38 @@ body {
   font-family: 'Cormorant Garamond', serif;
   background-color: #fafafa;
 }
+
+/* Navbar config */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #1a1a1a;
+}
+
+.navbar-logo {
+  height: 85px;
+  width: auto;
+  display: block;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  border-bottom: 1px solid #c9a84c;
+}
